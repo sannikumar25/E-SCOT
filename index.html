@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Scot Authentication</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>E-Scot</h1>
+    <form id="loginForm">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p>Or login with:</p>
+    <div class="social-buttons">
+      <button id="facebookLogin">Facebook</button>
+      <button id="githubLogin">GitHub</button>
+      <button id="phoneLogin">Phone</button>
+    </div>
+    <p>Don't have an account? <a href="#">Sign Up</a></p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
